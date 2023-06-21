@@ -1,0 +1,13 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 20px solid rgb(161, 232, 141);
+    border-top: 20px solid rgb(127, 126, 233);
+    animation: op 3s ease-in 0s infinite normal;
+}
+@keyframes op {
+    from{ transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+    
+}

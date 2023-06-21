@@ -1,0 +1,124 @@
+ /* /* h2{
+    color: blue;
+/* }
+button{
+    color: blue;
+    background-color: brown;
+}
+body{
+    background-color: aquamarine;
+} */ 
+
+/* *{
+    color: rgb(138, 22, 205);
+} */
+
+/*#ok {
+    color: blue;
+}
+
+.okk{
+    color: rgb(39, 198, 81);
+}
+
+h4 , h5 {
+    color: blue;
+    text-align: center; /* start = left and end = right 
+}
+h4{
+    text-decoration: rebeccapurple  wavy underline;
+}
+h5{
+    text-decoration: red overline;
+    font-weight: bolder;
+    font-size: 6px;
+    height: 100px;
+    background-color: pink;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 96px;
+    border: 15px dotted blueviolet;
+    width: 200px;
+    text-align: center;
+    border-radius: 50px;
+}
+a{
+    text-decoration: none; /*will remove underline from the link text rendered using anchor tag 
+    font-weight: 700;
+}
+#oo{
+    line-height: 299px;
+    text-transform: uppercase;
+}
+/*
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 15px;
+}
+    height: 100px;
+    width: 100px; /*to draw a circle 
+    border-radius: 50%;
+    text-align: center;
+    background-color:palegoldenrod;
+    display: inline;
+}
+#krsna{
+    color: blue;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    padding: 35px 20px 25px 30px ;
+    margin: 50px 100px 200px 100px ;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#op{
+    visibility: hidden;
+} */
+
+#box1,#box2,#box3,#box4{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+    top: 10px;
+    color: rebeccapurple;
+}
+#box2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    columns: red;
+    z-index: 1;
+}
+#box3{
+    /*position:absolute;
+    top: 10px;*/
+    color: green;
+    position: sticky;
+    top: 0px;
+}
+#box4{
+    color: black;
+    position: fixed;
+    top: 0%;
+    background-image: url("k/96319-goku-anime-artwork-hd-4k.jpg");
+    background-size: cover;
+}

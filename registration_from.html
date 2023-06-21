@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1><u>Registration form</u></h1>
+    <fieldset>
+      <form action="action.php">
+        <pre>Name : <input type="username"placeholder="Enter your name"></pre>
+        <pre>Class : <input type="password"placeholder="Enter Class"></pre>
+        <pre>Gender : </pre>
+        <label for="id1">
+          <input type="radio" value="female" name="gender" id="id1" />female
+        </label>
+        <label for="id2">
+          <input type="radio" value="male" name="gender" id="id2" />male
+        </label>
+
+        <pre>Subjects to choose : </pre>
+        <label for="maths">
+          <input type="checkbox" value="maths" name="subject" id="id1" />maths
+        </label>
+        <label for="biology">
+          <input
+            type="checkbox"
+            value="biology"
+            name="subject"
+            id="id2"
+          />biology
+        </label>
+        <pre>select your city :
+
+<select name="city"id="city">
+<option value="Delhi">Delhi</option>
+<option value="Bina">Bina</option>
+<option value="Guna">Guna</option>
+<option value="Mumbai">Mumbai</option>
+</select>
+</pre>
+
+        <p>Enter your feedback :</p>
+        <textarea
+          name="feedback"
+          id="id1"
+          placeholder="Please give your valuable feedback"
+          rows="3"
+        ></textarea>
+        <br />
+        <input align="left" type="submit" value="submit" />
+      </form>
+    </fieldset>
+  </body>
+</html>

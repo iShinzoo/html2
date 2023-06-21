@@ -1,0 +1,73 @@
+/* #container{
+    border: 2px solid black;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: row-reverse; /*in row direction of box is left to right and in row reverse right to left */
+    /*flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center;
+    flex-wrap: wrap;
+    align-content: center; 
+
+}
+#box1{
+background-color: red;
+flex-shrink: 2;
+}
+#box2{
+    background-color: rebeccapurple;
+    width: 50px;
+    align-self: flex-start;
+}
+#box3{
+    background-color: orange;
+}
+#box4{
+    background-color: yellow;
+    flex-grow: 3;
+}
+#box5{
+    background-color: aqua;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    color: white;
+    border: 2px solid black;
+}
+/* body{
+    text-align: center;
+} */ 
+
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;/*to remove bullet points from list items */
+    background-color: aqua;
+}
+
+#outer{
+    background-color: pink;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;/*center the elements of rows*/
+    align-items: center;/*center the elements of columns*/
+}
+#inner{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    align-self: flex-start;
+}

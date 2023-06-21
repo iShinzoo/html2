@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  background-color: aqua;
+  /* line-height: 0.2px; */
+  font-family: "Courier New", Courier, monospace;
+  width: 50vw;
+  height: 40vh;
+  /* min-height: 50;
+    max-height: 30; */
+  /* text-decoration: overline; */
+}
+
+/* body{
+    background-image: url(home\ page\ 1.jpg);
+    background-repeat: space;
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+} */
+/* h6{
+    height: 23px;
+    width: 910px;
+    background-color: aqua;
+    margin: 14px;
+    padding: 14px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box1{
+    background-color: aqua;
+    margin: 34px;
+    height: 20px;
+}
+.bo2{
+    background-color: rgb(219, 132, 26);
+    margin: 34px;
+    height: 20px;
+} */
+/* h1{
+    color: aqua;
+    background-color: black;
+}
+p{
+    color:aquamarine;
+    background-color: black;
+}
+#ok,footer{
+color: rgb(217, 255, 0);
+background-color: bisque;
+}
+h6{
+    border: 2px; 
+    color: aquamarine;
+    font-family: cursive;
+} */
